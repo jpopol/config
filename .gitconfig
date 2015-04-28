@@ -1,0 +1,13 @@
+[core]
+	editor = vim
+[alias]
+	lg = log --graph --oneline
+	co = checkout
+	br = branch
+[user]
+	name = Jean-Paul Bonnet
+	email = bonnet.jp@gmail.com
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
